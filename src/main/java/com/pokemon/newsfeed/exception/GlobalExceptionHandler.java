@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 
-
+@RestControllerAdvice
 public class GlobalExceptionHandler {
 
     // 예외 처리 메서드 예시
